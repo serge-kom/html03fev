@@ -1,0 +1,99 @@
+header {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between; /* Répartir l'espace horizontalement */
+    align-items: center;
+    
+    /* Aligner les éléments à droite */
+    
+   
+}
+header a {
+    margin-left: 20px;
+}
+
+
+
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: left;
+    margin-right: auto;
+    }
+
+
+
+.Container1 {
+width: 1024px;
+margin: 0 auto;
+height: 200px;
+background-image:('C:\Users\serge\OneDrive\Bureau\html03fev\img\th.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+.Container2{
+width: 1024px;
+margin: 0 auto;
+height: 100px;
+}
+.Container3{
+width: 1024px;
+margin: 20px;
+height: 520px;
+
+
+}
+.Container4{
+width: 1024px;
+margin: 0 auto;
+height: 100px;
+}
+
+.sectionDiv{
+display: flex;
+gap: 8px;
+justify-content: space-around;
+}
+
+.lien{
+list-style: none;
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
+.photoGrande{
+width: 75%;
+}
+.photoGrande img{
+width: 75%;
+height: 50%;
+}
+.autrephoto{
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px; /* Pour aligner les photos horizontalement */
+}
+
+.autrephoto span {
+    width: calc(50% - 2.5px); /* Largeur de chaque photo (moitié de 100% avec espace) */
+    margin-bottom: 10px;
+
+     /* Espacement vertical entre les photos */
+}
+main{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titreSection {
+    border-right: 1px solid black; /* Ajoute une bordure inférieure noire */
+}
